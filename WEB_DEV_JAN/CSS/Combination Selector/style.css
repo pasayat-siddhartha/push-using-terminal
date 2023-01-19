@@ -1,0 +1,40 @@
+/* descendant selectors */
+
+/* div p {
+    color: red;
+}
+
+ul li{
+    background-color: orange;
+} */
+
+/* span > p{
+    color : violet;
+} */
+
+/* div + p{
+    color: aqua;
+} */
+
+div ~ p{
+    color: chartreuse;
+}
+
+.btn{
+    background-color: red;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* To change once we hover over it */
+
+.btn:hover{
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+}
+
+.link:active{
+    color: pink;
+}
