@@ -1,0 +1,37 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.form-control{
+    width: 25%;
+    height: 25px;
+    border: 1px solid #ddd
+    box-shadow: rgba(red, green, blue, alpha) 0px 7px 29px 0px;
+    border-radius: 3px;
+}
+.form-control:focus, select:focus{
+    outline: none;
+    box-shadow: rgba(red, green, blue, alpha) 0px 7px 29px 0px;
+}
+
+select{
+    width: 20%;
+    height: 28px;
+    border: 1px solid #ddd
+    box-shadow: rgba(red, green, blue, alpha) 0px 7px 29px 0px;
+    border-radius: 3px;
+}
+
+.form-fields{
+    margin-bottom: 23px;
+}
+
+input[type="text"],input[type="email"]{
+    font-family: 'Lato', sans-serif;
+}
+
+.title{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 6px 0px;
+}
